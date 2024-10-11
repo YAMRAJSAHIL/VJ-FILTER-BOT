@@ -1,5 +1,5 @@
 # Don't Remove Credit @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot @Tech_VJ
+# Subscribe YouTube Channel For Amazing Bot 
 # Ask Doubt on telegram @KingVJ01
 
 
@@ -30,7 +30,7 @@ MELCOW_VID = environ.get("MELCOW_VID", "https://t.me/How_To_Open_Linkl")
 SPELL_IMG = environ.get("SPELL_IMG", "https://te.legra.ph/file/15c1ad448dfe472a5cbb8.jpg")
 
 # Admins, Channels & Users
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002218114927'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002162378374'))
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5738579437').split()]
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002021738886').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
@@ -71,8 +71,8 @@ CLONE_DATABASE_URI = environ.get('CLONE_DATABASE_URI', "mongodb+srv://Rishu:rish
 PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', 'Rishu_mood') # Public Channel Username Without @ or without https://t.me/ and Bot Is Admin With Full Right.
 
 # Links
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/ur_support07')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/ur_rishu_143')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/fillmyzillabysahil')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/fillmyzillabysahil')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/How_To_Open_Linkl')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Ur_support07') # Support Chat Link Without https:// or @
 
